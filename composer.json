@@ -1,0 +1,18 @@
+{
+    "name": "dave-liddament/custom-phpstan-rules-talk-demo-library",
+    "description": "Demo library for my custom PHPStan rules talk",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DaveLiddament\\CustomPhpstanRulesTalkDemoLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dave Liddament",
+            "email": "dave@lampbristol.com"
+        }
+    ],
+    "require": {}
+}
