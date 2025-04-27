@@ -4,8 +4,8 @@ namespace DaveLiddament\CustomPhpstanRulesTalkDemoLibrary;
 
 final class AlertService
 {
-    public function alert(string $message, ?string $type = null): void
+    public function alert(string $message, string $type): void
     {
-        echo "Alert: $message\n" . ($type ? "Type: $type\n" : "");
+        echo "Alert: $message\nType: $type\n";
     }
 }
